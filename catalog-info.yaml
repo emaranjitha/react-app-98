@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "react-app-98"
+  annotations:
+    github.com/project-slug: emaranjitha/backstage-infra #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: 'Backstage S3 Static website'
+  description: An example of a static website deployment Creation.
+spec:
+  type: service
+  owner: user:emaranjitha
+  lifecycle: experimental
